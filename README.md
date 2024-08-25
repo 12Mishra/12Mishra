@@ -23,8 +23,7 @@ Languages: C++, JavaScript
 
 📫 How to Reach Me
 
-Email: abhyu.mishra04@gmail.com
-LinkedIn: Abhyuday Mishra
-GitHub: Abhyuday Mishra
+Email: abhyu.mishra04@gmail.com <br>
+[LinkedIn](https://www.linkedin.com/in/abhyuday-mishra-016a74246/)
 
 I'm always eager to learn, collaborate, and take on new challenges. Let's connect and build something amazing together!
