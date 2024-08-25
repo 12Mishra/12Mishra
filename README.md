@@ -1,6 +1,6 @@
 ## Hi there, I'm Abhyuday Mishra! 👋
 
-I'm a passionate Frontend Developer with experience in React.js. I'm continuously learning and expanding my skills in backend development to become a full-stack developer. I also have a strong interest in Data Structures and Algorithms (DSA), which I practice using C++.
+I'm a Frontend Developer with some experience in React.js. I'm currently learning backend development with an aim to become a full-stack developer in the near future. I also have a keen interest in doing problem solving, which I practice using C++.
 
 🚀 What I Do
 
@@ -16,8 +16,8 @@ Expand my skill set to become proficient in full-stack development.
 
 🔧 Technologies & Tools
 
-Frontend: React.js, Tailwind CSS, JavaScript, HTML, CSS
-Backend: Learning Node.js, Express, MongoDBa
+Frontend: React.js, Tailwind CSS, JavaScript, HTML, CSS <br>
+Backend: Learning Node.js, Express, MongoDB <br>
 Languages: C++, JavaScript
 
 
@@ -26,4 +26,4 @@ Languages: C++, JavaScript
 [Email](abhyu.mishra04@gmail.com) <br>
 [LinkedIn](https://www.linkedin.com/in/abhyuday-mishra-016a74246/)
 
-I'm always eager to learn, collaborate, and take on new challenges. Let's connect and build something amazing together!
+I'm always eager to learn and collaborate with my peers or seniors. 
