@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=12mishra&label=Profile%20views&color=0e75b6&style=flat" alt="12mishra" /> </p>
 
-- 🔭 I’m currently working on **GitBoard**
+- 🔭 I’m currently working on **Web Development projects based on MERN stack and Next js**
 
 - 🌱 I’m currently learning **Next js**
 
