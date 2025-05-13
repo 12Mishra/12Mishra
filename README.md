@@ -5,11 +5,11 @@
 
 - 🔭 I’m currently working on **Web Development projects based on MERN stack and Next js**
 
-- 🌱 I’m currently learning **Next js**
+- 🌱 I’m currently adopting **Next.js** in my projects.
 
-- 👯 I’m looking to collaborate on **full stack next js projects**
+- 👯 I’m open for collaboration on **full-stack Next.js projects**
 
-- 💬 Ask me about **react, next js and web development**
+- 💬 Ask me about **React.js, Next.js and web development**
 
 - 📫 How to reach me **abhyu.mishra04@gmail.com**
 
