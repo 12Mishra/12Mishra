@@ -10,7 +10,6 @@
 &nbsp;
 ![Driver No.](https://img.shields.io/badge/DRIVER_NO-12-00D2BE?style=for-the-badge&labelColor=000000)
 &nbsp;
-![Team](https://img.shields.io/badge/TEAM-Mercedes_AMG_Petronas-C0C0C0?style=for-the-badge&labelColor=000000)
 
 </div>
 
@@ -31,15 +30,13 @@
     <td><b>📍 &nbsp;Base</b></td>
     <td>New Delhi / Patiala, India</td>
   </tr>
-  <tr>
-    <td><b>🎓 &nbsp;Team</b></td>
-    <td>Thapar Institute (ECE, 2027)</td>
-    <td><b>⚡ &nbsp;CGPA</b></td>
-    <td>8.78 / 10.0</td>
-  </tr>
+ <tr>
+  <td><b>🎓 &nbsp;Team</b></td>
+  <td colspan="3">Thapar Institute (ENC, 2027)</td>
+</tr>
   <tr>
     <td><b>🎯 &nbsp;Current Focus</b></td>
-    <td>MERN Stack · Next.js · System Design</td>
+    <td>Next.js · System Design · Scalable Backend Systems </td>
     <td><b>🔗 &nbsp;Portfolio</b></td>
     <td><a href="https://abhyudaymishra.in">abhyudaymishra.in</a></td>
   </tr>
@@ -140,11 +137,11 @@
 <div align="center">
 
 <a href="https://github.com/12Mishra/node-scale-engine">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=12Mishra&repo=node-scale-engine&bg_color=0d1117&title_color=00D2BE&text_color=FFFFFF&icon_color=00D2BE&border_color=00D2BE&border_radius=8"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=12Mishra&repo=Node-scale-engine&bg_color=0d1117&title_color=00D2BE&text_color=FFFFFF&icon_color=00D2BE&border_color=00D2BE&border_radius=8"/>
 </a>
 &nbsp;
 <a href="https://github.com/12Mishra/drop-and-sync">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=12Mishra&repo=drop-and-sync&bg_color=0d1117&title_color=00D2BE&text_color=FFFFFF&icon_color=00D2BE&border_color=00D2BE&border_radius=8"/>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=12Mishra&repo=Dro-Sync&bg_color=0d1117&title_color=00D2BE&text_color=FFFFFF&icon_color=00D2BE&border_color=00D2BE&border_radius=8"/>
 </a>
 
 </div>
@@ -162,20 +159,6 @@
 **Stack:** `Next.js` `PostgreSQL` `AWS S3` `Gemini API` `NextAuth`
 
 <br/>
-
----
-
-## 🏅 &nbsp;ACHIEVEMENTS &nbsp;/&nbsp; HALL OF FAME
-
-```
-🏆  CodeChef 1200+ Rating        —  150+ DSA problems solved in C++
-🎓  MERN Stack Certified (Udemy) —  React · Node.js · Express.js · MongoDB
-🚀  Smart India Hackathon 2024   —  Selected from Internal Round among 500+ participants
-```
-
-<br/>
-
----
 
 ## 📻 &nbsp;TEAM RADIO &nbsp;/&nbsp; CONTACT
 
