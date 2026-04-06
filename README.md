@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./f1-banner.svg" alt="Mercedes AMG Petronas F1 Banner" width="100%"/>
+  <img src="./f1-banner (1).svg" alt="Mercedes AMG Petronas F1 Banner" width="100%"/>
 </div>
 
 <br/>
