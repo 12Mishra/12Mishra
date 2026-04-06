@@ -1,0 +1,311 @@
+<svg viewBox="0 0 900 200" width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0d1117"/>
+    <stop offset="100%" stop-color="#161b22"/>
+  </linearGradient>
+  <linearGradient id="carBodyGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#DCDCDC"/>
+    <stop offset="45%" stop-color="#A8A8A8"/>
+    <stop offset="100%" stop-color="#505050"/>
+  </linearGradient>
+  <linearGradient id="noseGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#A0A0A0"/>
+    <stop offset="100%" stop-color="#303030"/>
+  </linearGradient>
+  <linearGradient id="trailGrad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00D2BE" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#00D2BE" stop-opacity="0.85"/>
+  </linearGradient>
+  <linearGradient id="trailGrad2" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00D2BE" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.3"/>
+  </linearGradient>
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="tealGlow" x="-20%" y="-50%" width="140%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="4" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<style>
+  .f1-car {
+    animation: carZoom 5.5s linear infinite;
+  }
+  @keyframes carZoom {
+    0%     { transform: translateX(-220px); opacity: 0; }
+    4%     { transform: translateX(-138px); opacity: 1; }
+    57%    { transform: translateX(890px);  opacity: 1; }
+    61%    { transform: translateX(940px);  opacity: 0; }
+    61.01% { transform: translateX(-220px); opacity: 0; }
+    100%   { transform: translateX(-220px); opacity: 0; }
+  }
+  .pulse-dot {
+    animation: pulse 2s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.3; r: 1; }
+    50% { opacity: 0.9; r: 1.8; }
+  }
+  .pulse-dot2 {
+    animation: pulse 2.6s ease-in-out infinite 0.4s;
+  }
+  .pulse-dot3 {
+    animation: pulse 3.1s ease-in-out infinite 1s;
+  }
+</style>
+
+<!-- BACKGROUND -->
+<rect width="900" height="200" fill="url(#bgGrad)"/>
+
+<!-- Top Mercedes teal stripe (glowing) -->
+<rect x="0" y="0" width="900" height="5" fill="#00D2BE" filter="url(#tealGlow)"/>
+
+<!-- Subtle circuit board lines (decorative) -->
+<path d="M 0 105 L 110 105 L 140 75 L 310 75" stroke="#1c2433" stroke-width="1.5" fill="none"/>
+<path d="M 900 115 L 790 115 L 760 145 L 590 145" stroke="#1c2433" stroke-width="1.5" fill="none"/>
+<circle cx="140" cy="75"  r="3" fill="#00D2BE" opacity="0.35"/>
+<circle cx="760" cy="145" r="3" fill="#00D2BE" opacity="0.35"/>
+
+<!-- Ambient teal glow blobs (very subtle) -->
+<ellipse cx="80" cy="100" rx="60" ry="40" fill="#00D2BE" opacity="0.025"/>
+<ellipse cx="820" cy="100" rx="60" ry="40" fill="#00D2BE" opacity="0.025"/>
+
+<!-- Animated particles -->
+<circle cx="172" cy="38"  r="1"   fill="#00D2BE" class="pulse-dot"/>
+<circle cx="335" cy="22"  r="0.8" fill="#FFFFFF"  class="pulse-dot2" opacity="0.3"/>
+<circle cx="502" cy="50"  r="1.2" fill="#00D2BE" class="pulse-dot3"/>
+<circle cx="668" cy="28"  r="0.9" fill="#00D2BE" class="pulse-dot"/>
+<circle cx="812" cy="55"  r="0.8" fill="#FFFFFF"  class="pulse-dot2" opacity="0.25"/>
+<circle cx="432" cy="30"  r="0.9" fill="#00D2BE" class="pulse-dot3"/>
+<circle cx="255" cy="62"  r="0.8" fill="#FFFFFF"  class="pulse-dot" opacity="0.2"/>
+<circle cx="578" cy="68"  r="1"   fill="#00D2BE" class="pulse-dot2"/>
+
+<!-- Large ghost driver number (decorative backdrop) -->
+<text x="735" y="148" font-family="Arial Black, Impact, sans-serif" font-size="115"
+      font-weight="900" fill="#00D2BE" opacity="0.055" letter-spacing="-6">12</text>
+
+<!-- TITLE SECTION (left-aligned) -->
+<!-- Team name label -->
+<text x="32" y="63" font-family="'Courier New', Courier, monospace" font-size="10"
+      font-weight="bold" fill="#00D2BE" letter-spacing="3.5" opacity="0.9">&#9654; AMG PETRONAS F1 TEAM</text>
+
+<!-- Main name -->
+<text x="30" y="97" font-family="Arial Black, Impact, sans-serif" font-size="28"
+      font-weight="900" fill="#FFFFFF" letter-spacing="2">ABHYUDAY MISHRA</text>
+
+<!-- Role / title -->
+<text x="32" y="118" font-family="'Courier New', Courier, monospace" font-size="11"
+      fill="#9CA3AF" letter-spacing="3">FULL STACK DEVELOPER</text>
+
+<!-- Teal underline accent -->
+<rect x="30" y="124" width="220" height="2.5" fill="#00D2BE" opacity="0.7" rx="1"/>
+
+<!-- Status pill -->
+<rect x="30" y="132" width="90" height="16" rx="8" fill="#00D2BE" opacity="0.15" stroke="#00D2BE" stroke-width="0.8" stroke-opacity="0.5"/>
+<circle cx="42" cy="140" r="3.5" fill="#00D2BE" opacity="0.9"/>
+<text x="50" y="144" font-family="'Courier New', monospace" font-size="8.5"
+      fill="#00D2BE" letter-spacing="1" opacity="0.95">ONLINE</text>
+
+<!-- ===================== -->
+<!-- TRACK AREA            -->
+<!-- ===================== -->
+<rect x="0" y="156" width="900" height="44" fill="#080a0e"/>
+
+<!-- Track teal border (glowing) -->
+<rect x="0" y="156" width="900" height="3.5" fill="#00D2BE" opacity="0.95" filter="url(#tealGlow)"/>
+
+<!-- Track surface texture (subtle dashes) -->
+<line x1="0" y1="174" x2="900" y2="174" stroke="#1d2535" stroke-width="1.5" stroke-dasharray="28,14"/>
+
+<!-- Track edge rumble (alternating teal/dark blocks) -->
+<rect x="0"   y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="30"  y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="60"  y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="90"  y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="120" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="150" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="180" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="210" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="240" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="270" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="300" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="330" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="360" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="390" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="420" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="450" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="480" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="510" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="540" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="570" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="600" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="630" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="660" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="690" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="720" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="750" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="780" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="810" y="194" width="30" height="6" fill="#0d1117"/>
+<rect x="840" y="194" width="30" height="6" fill="#00D2BE" opacity="0.5"/>
+<rect x="870" y="194" width="30" height="6" fill="#0d1117"/>
+
+<!-- ======================== -->
+<!-- ANIMATED F1 CAR GROUP    -->
+<!-- ======================== -->
+<g class="f1-car">
+  <g transform="translate(0, 156)">
+
+    <!-- MOTION TRAIL (behind the car at negative x) -->
+    <!-- Ground-level teal streak -->
+    <rect x="-215" y="-2.5" width="205" height="3.5"  fill="url(#trailGrad)" opacity="0.65" rx="2"/>
+    <rect x="-190" y="-1"   width="178" height="2"    fill="url(#trailGrad)" opacity="0.38" rx="1"/>
+    <!-- Mid-level speed lines -->
+    <rect x="-165" y="-30"  width="148" height="2"    fill="url(#trailGrad)" opacity="0.28" rx="1"/>
+    <rect x="-145" y="-38"  width="122" height="1.5"  fill="url(#trailGrad)" opacity="0.2"  rx="1"/>
+    <rect x="-120" y="-22"  width="100" height="1"    fill="url(#trailGrad2)" opacity="0.18" rx="1"/>
+
+    <!-- Ground sparks (titanium skid blocks) -->
+    <circle cx="-8"  cy="-1.5" r="2.2" fill="#FFD700" opacity="0.82"/>
+    <circle cx="-22" cy="-3"   r="1.6" fill="#FF8C00" opacity="0.6"/>
+    <circle cx="-36" cy="-1"   r="1.1" fill="#FFD700" opacity="0.45"/>
+    <circle cx="38"  cy="-1"   r="1.8" fill="#FFD700" opacity="0.7"/>
+    <circle cx="82"  cy="-2"   r="1.2" fill="#FF6600" opacity="0.55"/>
+    <circle cx="118" cy="-1.5" r="1"   fill="#FFD700" opacity="0.4"/>
+
+    <!-- ============ REAR WHEEL ============ -->
+    <!-- Tire (dark rubber) -->
+    <circle cx="42" cy="-16" r="16" fill="#0e0e0e" stroke="#1f1f1f" stroke-width="2"/>
+    <!-- Inner rim -->
+    <circle cx="42" cy="-16" r="11" fill="#181818"/>
+    <!-- 5-spoke rim -->
+    <line x1="42"  y1="-27" x2="42"  y2="-5"  stroke="#3d3d3d" stroke-width="2"/>
+    <line x1="31"  y1="-16" x2="53"  y2="-16" stroke="#3d3d3d" stroke-width="2"/>
+    <line x1="34.5" y1="-24" x2="49.5" y2="-8"  stroke="#3d3d3d" stroke-width="1.5"/>
+    <line x1="34.5" y1="-8"  x2="49.5" y2="-24" stroke="#3d3d3d" stroke-width="1.5"/>
+    <!-- Center cap -->
+    <circle cx="42" cy="-16" r="3.5" fill="#484848"/>
+    <!-- Teal rim glow ring -->
+    <circle cx="42" cy="-16" r="13.5" fill="none" stroke="#00D2BE" stroke-width="2.2" opacity="0.85" filter="url(#glow)"/>
+
+    <!-- ============ REAR WING ============ -->
+    <!-- Left endplate -->
+    <rect x="2"  y="-64" width="5"  height="53" fill="#0a0a0a" rx="1.5"/>
+    <!-- Main element — TEAL (top, most prominent) -->
+    <rect x="2"  y="-66" width="25" height="9.5" fill="#00D2BE" rx="2" filter="url(#glow)"/>
+    <!-- Second element — silver -->
+    <rect x="5"  y="-55" width="20" height="7"   fill="#C8C8C8" rx="1.5"/>
+    <!-- DRS flap -->
+    <rect x="6"  y="-47" width="18" height="5"   fill="#909090" rx="1.5"/>
+    <!-- Right endplate (depth) -->
+    <rect x="23" y="-64" width="4"  height="53" fill="#131313" rx="1.5"/>
+
+    <!-- ============ MAIN BODY ============ -->
+    <path d="
+      M 10 0
+      L 10 -22
+      Q 26 -27 42 -29
+      Q 59 -31 74 -34
+      Q 87 -38 101 -42
+      Q 113 -43 121 -41
+      Q 137 -36 150 -27
+      Q 159 -21 168 -18
+      L 176 -15
+      L 181 -12
+      L 181 -8
+      Q 170 -8 158 -10
+      L 132 -10
+      L 66 -10
+      L 22 -6
+      L 10 0
+      Z
+    " fill="url(#carBodyGrad)"/>
+
+    <!-- Body depth shading line (bottom) -->
+    <path d="M 13 -5 Q 72 -8 160 -12" stroke="#484848" stroke-width="1" fill="none" opacity="0.7"/>
+
+    <!-- MERCEDES TEAL SIDE STRIPE (signature livery element) -->
+    <path d="M 12 -21 Q 78 -29 166 -19"
+          stroke="#00D2BE" stroke-width="5" fill="none"
+          stroke-linecap="round" filter="url(#glow)" opacity="0.98"/>
+
+    <!-- Nose teal accent stripe (continues along nose) -->
+    <path d="M 163 -15 Q 171 -13 179 -11"
+          stroke="#00D2BE" stroke-width="2.5" fill="none"
+          stroke-linecap="round" opacity="0.8"/>
+
+    <!-- ============ COCKPIT SURROUND ============ -->
+    <path d="
+      M 92 -39
+      Q 100 -49 113 -46
+      Q 123 -44 127 -39
+      L 123 -37
+      Q 115 -38 104 -38
+      Q 97 -39 92 -39 Z
+    " fill="#050505" stroke="#181818" stroke-width="0.5"/>
+
+    <!-- ============ HALO ============ -->
+    <!-- Main arch (silver carbon) -->
+    <path d="M 94 -38 Q 109 -59 125 -38"
+          fill="none" stroke="#B8B8B8" stroke-width="4.5" stroke-linecap="round"/>
+    <!-- Subtle inner highlight -->
+    <path d="M 96 -38 Q 109 -55 122 -38"
+          fill="none" stroke="#D0D0D0" stroke-width="1.2" stroke-linecap="round" opacity="0.5"/>
+    <!-- Center pillar strut -->
+    <rect x="106" y="-52" width="4.5" height="15" fill="#B8B8B8" rx="2"/>
+
+    <!-- ============ MIRROR ============ -->
+    <rect x="94" y="-46" width="12" height="6" fill="#111" rx="3" stroke="#282828" stroke-width="0.5"/>
+
+    <!-- ============ NOSE CONE ============ -->
+    <path d="
+      M 163 -19
+      L 163 -10
+      Q 171 -8  181 -8
+      L 181 -12
+      Q 171 -14 163 -19 Z
+    " fill="url(#noseGrad)"/>
+
+    <!-- Teal nose tip accent -->
+    <path d="M 179 -12 L 185 -10 L 179 -8 Z" fill="#00D2BE" opacity="0.9" filter="url(#glow)"/>
+
+    <!-- ============ FRONT WING ============ -->
+    <!-- Lower main plane (silver) -->
+    <rect x="150" y="-5" width="46" height="5"   fill="#C0C0C0" rx="1.5"/>
+    <!-- Upper cascade — TEAL -->
+    <rect x="153" y="-11" width="40" height="5.5" fill="#00D2BE" rx="1.5" filter="url(#glow)"/>
+    <!-- Left endplate -->
+    <rect x="150" y="-13" width="5"  height="13" fill="#0a0a0a" rx="1.5"/>
+    <!-- Right endplate (front of wing) -->
+    <rect x="191" y="-11" width="5"  height="11" fill="#0a0a0a" rx="1.5"/>
+
+    <!-- ============ FRONT WHEEL ============ -->
+    <circle cx="140" cy="-13" r="13" fill="#0e0e0e" stroke="#1f1f1f" stroke-width="2"/>
+    <circle cx="140" cy="-13" r="8.5" fill="#181818"/>
+    <!-- Spokes -->
+    <line x1="140" y1="-21" x2="140" y2="-5"  stroke="#3d3d3d" stroke-width="2"/>
+    <line x1="132" y1="-13" x2="148" y2="-13" stroke="#3d3d3d" stroke-width="2"/>
+    <line x1="134" y1="-19" x2="146" y2="-7"  stroke="#3d3d3d" stroke-width="1.5"/>
+    <line x1="134" y1="-7"  x2="146" y2="-19" stroke="#3d3d3d" stroke-width="1.5"/>
+    <circle cx="140" cy="-13" r="3"   fill="#484848"/>
+    <!-- Teal rim ring -->
+    <circle cx="140" cy="-13" r="11"  fill="none" stroke="#00D2BE" stroke-width="2.2" opacity="0.85" filter="url(#glow)"/>
+
+    <!-- ============ SIDEPOD AIR INTAKE ============ -->
+    <ellipse cx="79" cy="-29" rx="6.5" ry="5" fill="#030303" stroke="#191919" stroke-width="1.5"/>
+
+    <!-- ============ REAR DIFFUSER ============ -->
+    <path d="M 10 0 L 22 0 L 22 -10 L 10 -22 Z" fill="#0c0c0c"/>
+
+  </g>
+</g>
+
+</svg>
