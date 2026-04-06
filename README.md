@@ -31,7 +31,7 @@
     <td>New Delhi / Patiala, India</td>
   </tr>
  <tr>
-  <td><b>🎓 &nbsp;Team</b></td>
+  <td><b>🎓 &nbsp;College</b></td>
   <td colspan="3">Thapar Institute (ENC, 2027)</td>
 </tr>
   <tr>
@@ -160,7 +160,7 @@
 
 <br/>
 
-## 📻 &nbsp;TEAM RADIO &nbsp;/&nbsp; CONTACT
+## 📻 &nbsp;CollegeRADIO &nbsp;/&nbsp; CONTACT
 
 > *"Copy that, box box box — let's connect."*
 
